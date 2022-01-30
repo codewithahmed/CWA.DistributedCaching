@@ -7,15 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="CWA.DistributedCache" Version="1.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" PrivateAssets="all" Version="6.0.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.1" />
         <PackageReference Include="SQLite" Version="3.13.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\..\src\CWA.DistributedCaching\CWA.DistributedCaching.csproj" />
     </ItemGroup>
 
 </Project>

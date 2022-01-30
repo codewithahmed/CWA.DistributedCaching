@@ -9,13 +9,13 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Authors>Ahmed Qaid Alaamry</Authors>
         <Company>codewithahmed.com</Company>
-        <PackageProjectUrl>https://github.com/codewithahmed/CWA.DistributedCache</PackageProjectUrl>
+        <PackageProjectUrl>https://github.com/codewithahmed/CWA.DistributedCaching</PackageProjectUrl>
         <Description>A simple package implement and extended the functionality of `IDistributedCache` interface (Memory, Redis) to make the caching more easier.</Description>
         <Summary>A simple package implement and extended the functionality of `IDistributedCache` interface (Memory, Redis) to make the caching more easier.</Summary>
-        <RepositoryUrl>https://github.com/codewithahmed/CWA.DistributedCache</RepositoryUrl>
+        <RepositoryUrl>https://github.com/codewithahmed/CWA.DistributedCaching</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <NeutralLanguage>en-US</NeutralLanguage>
-        <Version>1.0.0</Version>
+        <Version>1.0.1</Version>
         <PackageTags>Caching, Distributed-Caching, Redis-Cache, Distributed-Memory-Cache,Stack-Exchange-Redis, .NET-6.0, .NET-5.0, .NET-Core-3.1, .NET-Core</PackageTags>
         <RootNamespace>CWA.DistributedCache</RootNamespace>
         <LangVersion>10</LangVersion>

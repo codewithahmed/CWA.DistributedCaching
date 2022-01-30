@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{4DDBF237-B3E1-4C0A-9CBF-F68AFE442B25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F368284-4E08-4A42-955B-D99946AB0DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CWA.DistributedCaching", "src\CWA.DistributedCaching\CWA.DistributedCaching.csproj", "{9ED8F60A-61C4-47D0-A601-C1651FE5F0B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCachingSampleApp", "Sample\DistributedCachingSampleApp\DistributedCachingSampleApp.csproj", "{94BC1694-1C85-400B-821C-304761AD33DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ED8F60A-61C4-47D0-A601-C1651FE5F0B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ED8F60A-61C4-47D0-A601-C1651FE5F0B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ED8F60A-61C4-47D0-A601-C1651FE5F0B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ED8F60A-61C4-47D0-A601-C1651FE5F0B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BC1694-1C85-400B-821C-304761AD33DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BC1694-1C85-400B-821C-304761AD33DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BC1694-1C85-400B-821C-304761AD33DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BC1694-1C85-400B-821C-304761AD33DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9ED8F60A-61C4-47D0-A601-C1651FE5F0B6} = {2F368284-4E08-4A42-955B-D99946AB0DD6}
+		{94BC1694-1C85-400B-821C-304761AD33DF} = {4DDBF237-B3E1-4C0A-9CBF-F68AFE442B25}
+	EndGlobalSection
+EndGlobal
